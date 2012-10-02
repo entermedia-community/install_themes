@@ -1,0 +1,339 @@
+
+/*
+ * 	In order to change the logo of your site you will need to create a copy of the base header.html
+ * 	and change the logo image's sourcepath to include the correct image.
+ */
+
+/* body background */
+
+body {
+	background: #fff;
+}
+
+/* main site container */
+
+#main, #emcontent {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+/* widget-header gradients */
+
+.ui-widget-header, #nav, #header .navlinks {
+
+}
+
+/* nav buttons */
+
+#nav {
+    background: none;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    padding: 0;
+}
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#nav li {
+    margin: 0;
+}
+#nav li:first-child {
+   margin: 0; 
+}
+#nav li a {
+    background: none;
+    bordeR: none;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #666;
+    box-shadow: none;
+    border-radius: 0;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+#nav li a:hover {
+    background: #eee;
+}
+#nav li a:active {
+    top: 0;
+    border: none;
+    background: #ddd;
+}
+#nav li.navselected a, #nav li a:active {
+	
+}
+#nav .flat-right, #nav .flat-left {
+    border-radius: 0;
+}
+#module-dropdown span {
+    background: url('../images/menu-arrow-down.png') 1px 0 no-repeat;
+    margin-top: -2px;
+    top: 5px;
+    width: 12px;
+    padding-bottom: 4px;
+}
+#module-dropdown.active span {
+    background: url('../images/menu-arrow-up.png') 1px 0 no-repeat;
+}
+#module-dropdown.active, #module-dropdown.active:hover {
+    background: #ddd;
+    top: 0;
+    border: none;
+} 
+#module-list {
+    border: none;
+    background: #ddd;
+    top: 47px;
+    border-radius: 0;
+    box-shadow: none;
+    width: 150px;
+    border: 1px solid #aaa;
+    border-top: none;
+    box-shadow: 0px 3px 3px 0 rgba(0, 0, 0, .2);
+}
+#module-list li a {
+    border-bottom: 1px dotted #aaa;
+}
+#module-list li:last-child a {
+    border-bottom: none;
+}
+ul#sub-nav li:hover ul li a {
+    background: #ddd;
+    color: #666;
+}
+ul#sub-nav li:hover ul li a:hover {
+    background: #ddd;
+    color: #666;
+}
+
+#main-asset-table #tableheader th.sortable.currentsort.up {
+    background: rgba(0,0,0,0.1) url('../images/sort-asc.png') right 12px no-repeat;
+}
+#main-asset-table #tableheader th.sortable.currentsort.down {
+    background: rgba(50,79,16,0.1) url('../images/sort-desc.png') right 12px no-repeat;
+}
+
+/* left column background color */
+
+#left-col {
+	background: none;
+	border: none;
+}
+
+/* left column widget border colors */
+
+#left-col .ui-widget-content {
+    border-radius: 0;
+    border-color: #eee;
+    background: #fff;
+    box-shadow: none;
+}
+#left-col .ui-widget-header {
+    border-radius: 0;
+    background: #ccc;
+}
+
+/* right column border color */
+
+#right-col {
+	background: none;
+	border-left: 1px dotted #ccc;
+}
+
+/* sub nav */
+
+#eml-tab-subnav ul, #sub-nav {
+    background: #eee;
+    border-bottom: 1px dotted #aaa;
+}
+#eml-tab-subnav ul li a, #sub-nav li a {
+    color: #666;
+}
+#eml-tab-subnav ul li a:hover, #sub-nav li a:hover {
+    background: #ddd;
+    color: #666;
+}
+#column-editor {
+    background: #eee;   
+}
+
+/* table header background color and font color */
+
+#emcontainer #emselectable #tableheader th, table tr.tableheader th {
+	background: #ccc;
+	color: #fff;
+	text-shadow: none;
+}
+
+/* table rows colors */
+
+#emcontainer #emselectable table tr {
+	
+}
+#emcontainer #emselectable table tr.odd, table tr.odd {
+    background: #f7f7f7;
+}
+
+/* table rows hover background color */
+
+#emcontainer #emselectable table tr.emborderhover, table tr.emborderhover {
+	
+}
+#emcontainer #emselectable table tr {
+    border-bottom: 1px dotted #ddd;
+}
+#emcontainer #emselectable table tr.emborderhover, #module-results-table tr:hover {
+    background: #eee;
+}
+
+/* media player background */
+
+#media-player {
+	
+}
+
+/* sidebar hover background color */
+
+.sidebar-caption span {
+
+}
+#emcategoryinline .dTreeNodeSel {
+    background: #aaa;
+}
+.search-list li.current a.search-href, .sidebar-list li.current a {
+    background: #aaa;
+}
+#eml-tab-subnav ul li.current a, #sub-nav li.current a:hover {
+    background: #aaa;
+}
+#header .navlinks {
+    background: none;
+    color: #ccc;
+    margin-top: -30px;
+}
+#header .navlinks a {
+    color: #aaa;
+    margin-top: 5px;
+}
+#header .navlinks a:hover {
+    color: #666;
+    text-decoration: none;
+}
+li.add { 
+    background: #eee !important;   
+}
+.ui-widget {
+    border-radius: 0;
+}
+.ui-widget-header {
+    background: #ccc;
+    border-radius: 0;
+}
+.ui-widget-content {
+    border: 1px solid #ddd;
+    box-shadow: none;
+    border-radius: 0;
+}
+#side-nav-inner ul li.header {
+    background: #aaa;   
+    border-color: #666 !important;
+}
+#workarea li.header, #workarea li.header:hover {
+    background: #aaa;
+    border-color: #666 !important;
+}
+#side-nav-inner ul li.current a {
+    background: #aaa;   
+}
+h1, h2 {
+    color: #aaa;
+}
+.tabnav a:hover {
+    color: #666;
+}
+.tabnav a.current {
+    color: #666;   
+}
+.asset-details-more a {
+    background: #ccc;
+}
+.asset-details-more a:hover {
+    background: #aaa;
+}
+#media-player {
+    background: #444 url('../images/asset-bg.png');
+}
+.sidebar-caption span {
+    background: #aaa;   
+}
+.commentbox .ui-widget-header {
+    background: #aaa;   
+}
+.subnav-title {
+    color: #666;   
+}
+#eml-tab-subnav ul li a:hover, #sub-nav li a:hover, #sub-nav li:hover a, #sub-nav li.edit-columns:hover #column-editor {
+    background: #ccc;
+    color: #666;
+}
+ul#sub-nav li:hover ul li a:hover {
+    background: #ccc;   
+}
+ul#sub-nav li ul {
+    border-color: #aaa;   
+}
+
+/* categories and tags background color */
+
+.asset-details-more a {
+
+}
+
+.asset-details-more a:hover {
+
+}
+
+/* category tree selected row background color */
+
+#emcategoryinline .dTreeNodeSel {
+
+}
+
+/* asset metadata editor frame background color and side tab background color */
+
+body #emcontainer .emasseteditorareawrapper, #assetmenu .catalogs_menu_item.current {
+
+}
+
+/* settings area sub navigation background color and border color */
+
+#eml-tab-subnav ul, #eml-tabs ul li.current a {
+
+}
+#eml-tabs ul li.current a {
+
+}
+
+/* hints color and hover colors */
+
+.hints h3, .hints a:hover {
+
+}
+
+/* standard font colors */
+
+h1, h2 {
+
+}
+
+/* form focus border color */
+
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus {
+	
+}
+

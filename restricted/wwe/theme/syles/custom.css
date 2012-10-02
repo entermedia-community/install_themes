@@ -1,0 +1,203 @@
+
+/* MAIN STYLES */
+
+#embody {
+	background: #000 url('../images/bg.jpeg') top center no-repeat;
+}
+#emcontent {
+    border-radius: 3px;
+}
+#left-col {
+    background-color: #f7f7f7;
+    border-radius: 3px 0 0 3px;
+}
+#right-col {
+    background: #fff;
+    border-color: #ccc;
+    border-radius: 0 3px 3px 0;
+}
+.ui-widget-header, #nav, #header .navlinks {
+    background: url('../images/menu-bk.gif');
+    filter: none;
+}
+#left-col .ui-widget-content {
+    border-color: #ddd;
+}
+
+/* NAV STYLES */
+
+#nav {
+    border-radius: 3px;
+    margin: 10px 0 10px 0;
+    background: none;
+    padding: 0;
+    background: url('../images/menu-bk.gif');
+    filter: none;
+    height: 29px;
+}
+#nav ul {
+    padding: 0;
+    margin: 0;
+}
+#nav ul li {
+    margin: 0;
+    padding: 0;
+}
+#nav ul li:first-child {
+    margin-left: 0;
+}
+#nav ul li a, #nav ul li a:hover, #nav ul li a:active {
+    border: none;
+    box-shadow: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    height: 29px;
+    line-height: 29px;
+    text-transform: uppercase;
+    padding: 0 10px;
+    filter: none;
+}
+#nav ul li a:hover {
+    background: url('../images/menu-on.gif');
+    border-radius: 0;
+    filter: none;
+    
+}
+#searchform {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+#searchform input {
+    border-radius: 3px;
+    float: right;
+    margin-right: 10px;
+    line-height: 22px;
+}
+
+/* GALLERY STYLES */
+
+#embody .emgallery a.updatebasket {
+    color: #61B6BB; 
+}
+.gallery-field-info {
+    color:#61B6BB; 
+}
+
+/* Categories styles */
+
+
+.emtree ul li div {
+    border-color: #eee;
+    color: #444;
+}
+.emtree ul li div:hover {
+    background: #eee;
+}
+.emtree ul li div.selected, .emtree ul li div.selected:hover {
+    background: #FEFAEA;
+    color: #444;
+}
+
+/* MY ACCOUNT */
+
+.search-list li.current a.search-href, .sidebar-list li.current a {
+    background: #FEFAEA;
+    color: #444;
+}
+#default-top {
+    border-radius: 0 3px 0 0;
+}
+#emcontainer #emselectable #tableheader th, #emcontainer .emdata tr.tableheader th {
+    background: rgb(235,235,235);
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ViZWJlYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkY2RjZGMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, rgba(235,235,235,1) 0%, rgba(220,220,220,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(235,235,235,1)), color-stop(100%,rgba(220,220,220,1)));
+    background: -webkit-linear-gradient(top, rgba(235,235,235,1) 0%,rgba(220,220,220,1) 100%);
+    background: -o-linear-gradient(top, rgba(235,235,235,1) 0%,rgba(220,220,220,1) 100%);
+    background: -ms-linear-gradient(top, rgba(235,235,235,1) 0%,rgba(220,220,220,1) 100%);
+    background: linear-gradient(to bottom, rgba(235,235,235,1) 0%,rgba(220,220,220,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebebeb', endColorstr='#dcdcdc',GradientType=0 );
+    border-bottom: 1px solid #bbb;
+    color: #666 !important;
+}
+#emcontainer #emselectable #main-results-table tr td {
+    border-color: #ddd;
+}
+#emcontainer #emselectable table tr {
+    border-color: #ddd;
+}
+tr.odd {
+    background: #f7f7f7;
+}
+#emcontainer #emselectable table tr.emborderhover, #main-results-table tr:hover {
+    background: #eee;
+    border-color: #eee;
+}
+
+/* SUB NAV */
+
+#eml-tab-subnav ul, #sub-nav, #column-editor {
+                            background: rgb(255,255,255); /* Old browsers */
+            background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(239,239,239,1) 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(239,239,239,1))); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(239,239,239,1) 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(239,239,239,1) 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(239,239,239,1) 100%); /* IE10+ */
+            background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(239,239,239,1) 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#efefef',GradientType=0 ); /* IE6-9 */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b9b9b9', endColorstr='#d3d3d3',GradientType=0 );
+                border-bottom-color: #bbb;
+}
+ul#sub-nav li ul {
+    border: 1px solid #aaa;
+    border-top: none;
+}
+#eml-tab-subnav ul li a, #sub-nav li a {
+    color: #666;
+}
+#eml-tab-subnav ul li a:hover, #sub-nav li a:hover {
+    background-color: #ddd;
+    color: #444;
+} 
+#eml-tab-subnav ul li.current a, #sub-nav li.current a:hover {
+    font-weight: normal;
+    color: #444;
+    background: #bbb;
+}
+
+/* SUB-NAV DROPDOWN */
+
+ul#sub-nav li:hover ul li a {
+    background: #ddd;
+    color: #444;
+}
+ul#sub-nav li:hover ul li a:hover {
+    background: #ccc;
+    color: #444;
+}
+#eml-tab-subnav ul li a:hover, #sub-nav li a:hover, #sub-nav li:hover a, #sub-nav li.edit-columns:hover #column-editor {
+    background: #ddd;
+    color: #444;
+}
+#emcontainer #emselectable #main-results-table tr .checkbox {
+    width: 40px;
+}
+
+/* ORDER MODULE - ORDER DETAILS */
+
+#order-details h2 {
+    background: #FEFAEA;
+    border-bottom: 1px solid #bbb;
+    padding: 20px;
+    color: #222;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+#order-details h2 a {
+    font-size: 20px;
+    color: #61B6BB;
+    font-weight: bold;
+}
