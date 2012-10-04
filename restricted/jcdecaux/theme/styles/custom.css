@@ -164,10 +164,33 @@ ul#sub-nav li:hover ul li a:hover {
 
 /* table header background color and font color */
 
-#emcontainer #emselectable #tableheader th, table tr.tableheader th {
-	background: #ccc;
+#emcontainer #emselectable #tableheader, #emcontainer .emdata tr.tableheader, .title-bar {
+	background: #aaa;
 	color: #fff;
 	text-shadow: none;
+	filter: none;
+}
+.title-bar {
+    border-color: #666;
+    border-left: none;
+}
+#emcontainer #emselectable #main-results-table #tableheader th, .settings-table #tableheader th {
+    color: #fff;
+    text-shadow: none;
+    background: #ccc;
+    filter: none;
+}
+.emtree ul li div { 
+    border-color: #ddd;
+}
+
+/* emtree colors */
+
+#tree ul li div.selected, .emtree ul li div.selected, #tree ul li div.selected:hover, .emtree ul li div.selected:hover {
+   background: #eee;
+}
+.emtree ul li div:hover {
+    background: #eee;
 }
 
 /* table rows colors */
@@ -287,53 +310,13 @@ ul#sub-nav li:hover ul li a:hover {
 ul#sub-nav li ul {
     border-color: #aaa;   
 }
-
-/* categories and tags background color */
-
-.asset-details-more a {
-
+#de-metadata .ui-widget-header span a {
+    color: #444;
 }
-
-.asset-details-more a:hover {
-
+#de-side-nav li.current a, #de-side-nav li.current a:hover {
+    background: #666;
+    border-color: #444;
 }
-
-/* category tree selected row background color */
-
-#emcategoryinline .dTreeNodeSel {
-
+#de-side-nav ul li.current:after {
+    border-left-color: #666;
 }
-
-/* asset metadata editor frame background color and side tab background color */
-
-body #emcontainer .emasseteditorareawrapper, #assetmenu .catalogs_menu_item.current {
-
-}
-
-/* settings area sub navigation background color and border color */
-
-#eml-tab-subnav ul, #eml-tabs ul li.current a {
-
-}
-#eml-tabs ul li.current a {
-
-}
-
-/* hints color and hover colors */
-
-.hints h3, .hints a:hover {
-
-}
-
-/* standard font colors */
-
-h1, h2 {
-
-}
-
-/* form focus border color */
-
-input[type="text"]:focus, input[type="password"]:focus, textarea:focus {
-	
-}
-
