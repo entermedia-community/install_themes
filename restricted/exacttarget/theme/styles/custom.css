@@ -80,6 +80,11 @@ body {
 	background: #F8C048; /* Light Orange */
 }
 
+#sub-nav ul li ul li a
+{
+	background: #F8C048; /* Light Orange */
+}
+
 .title-bar{
 	background: #E98300; /* Main Orange */
 	border-color: #4F4F4F; /* Dark Grey */
@@ -97,8 +102,8 @@ body {
 	background: #F8C048; /* Light Orange */
 }
 
-#emcontainer #emselectable #main-results-table #tableheader th.sortable.currentsort.down {
-	background: #4F4F4F; /* Dark Grey */
+#emcontainer #emselectable #main-results-table #tableheader th.sortable.currentsort.up {
+	/*background: rgba(79,79,79,150) /* Dark Grey */
 }
 
 #nav .flat-right {
@@ -164,6 +169,17 @@ body #emcontainer .emasseteditorareawrapper, #assetmenu .catalogs_menu_item.curr
 }
 
 /* settings area sub navigation background color and border color */
+#eml-tab-subnav li
+{
+	color: #4F4F4F; /* Dark Grey */
+
+}
+
+#eml-tab-subnav ul li a:hover
+{
+	background: #F8C048; /* Light Orange */
+	color: #4F4F4F; /* Dark Grey */
+}
 
 #eml-tab-subnav ul, #eml-tabs ul li.current a {
 	background: #f4f4f4; /* Old browsers */
@@ -175,9 +191,8 @@ body #emcontainer .emasseteditorareawrapper, #assetmenu .catalogs_menu_item.curr
 	background: linear-gradient(to bottom, #f4f4f4 1%,#ebebeb 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#ebebeb',GradientType=0 ); /* IE6-9 */
 	border-color: #6E7C85; /* Button Grey Highlight */
-	color: #4F4F4F; /* Dark Grey */
-
 }
+
 #eml-tabs ul li.current a {
 	background: #5E6A71; /* Button Grey */
 	color: #4F4F4F; /* Dark Grey */
