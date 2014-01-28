@@ -1,0 +1,153 @@
+
+/*
+ * 	In order to change the logo of your site you will need to create a copy of the base header.html
+ * 	and change the logo image's sourcepath to include the correct image.
+ */
+
+/* body background */
+
+body {
+	background: #4F4F4F; /* Dark Grey */
+}
+
+/* widget-header gradients */
+
+#nav{
+	background: #1E1E1E; /* Very Dark Grey */
+}
+
+.ui-widget-header, #header .navlinks {
+	background: #E98300; /* Main Orange */
+	color: #fff;
+}
+
+/* nav buttons */
+
+#nav li a {
+	background: #e98300; /* Old browsers */
+	border-color: #A0540E; /* Dark Orange */
+	color: #fff;
+}
+#nav li a:hover {
+	background: #6E7C85; /* Button Grey Highlight */
+	border-color: #4F4F4F; /* Dark Grey */
+}
+#nav li.navselected a, #nav li a:active {
+	border-color: #A0540E; /* Dark Orange */
+	border-color: #4F4F4F; /* Dark Grey */
+}
+
+/* left column background color */
+
+#left-col {
+	background: #EBEBEB; /* Light Grey Background */
+	border-color: #4F4F4F; /* Dark Grey */
+}
+
+/* left column widget border colors */
+
+#left-col .ui-widget-content {
+	
+	border-color: #E98300; /* Main Orange */
+}
+
+/* right column border color */
+
+#right-col {
+	border-color: #5E6A71; /* Button Grey */
+}
+
+/* main widget backgrond color */
+
+#emcontent {
+	background: #1E1E1E; /* Very Dark Grey */
+}
+
+#sub-nav a, #sub-nav ul{
+	/*background: #E98300; /* Main Orange */
+	/*color: #fff;*/
+}
+
+/* table header background color and font color */
+
+#emcontainer #emselectable #main-results-table #tableheader th, table tr.tableheader th {
+	background: #E98300; /* Main Orange */
+	color: #fff;
+}
+
+/* table rows colors */
+
+#emcontainer #emselectable table tr {
+	background: #EBEBEB; /* Light Grey Background */
+}
+
+#emcontainer #emselectable table tr.odd, table tr.odd {
+	
+}
+
+/* table rows hover background color */
+
+#emcontainer #emselectable table tr.emborderhover, table tr.emborderhover {
+	background: #E98300; /* Main Orange */
+}
+
+/* media player background */
+
+#media-player {
+	background: #1E1E1E; /* Very Dark Grey */
+}
+
+/* sidebar hover background color */
+
+.sidebar-caption span {
+	background: #EBEBEB; /* Light Grey Background */
+}
+
+/* categories and tags background color */
+
+.asset-details-more a {
+
+}
+
+.asset-details-more a:hover {
+
+}
+
+/* category tree selected row background color */
+
+#emcategoryinline .dTreeNodeSel {
+	background: #5E6A71; /* Button Grey */
+}
+
+/* asset metadata editor frame background color and side tab background color */
+
+body #emcontainer .emasseteditorareawrapper, #assetmenu .catalogs_menu_item.current {
+
+}
+
+/* settings area sub navigation background color and border color */
+
+#eml-tab-subnav ul, #eml-tabs ul li.current a {
+
+}
+#eml-tabs ul li.current a {
+
+}
+
+/* hints color and hover colors */
+
+.hints h3, .hints a:hover {
+
+}
+
+/* standard font colors */
+
+h1, h2 {
+
+}
+
+/* form focus border color */
+
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus {
+	
+}
