@@ -1,0 +1,206 @@
+
+/*
+ * 	In order to change the logo of your site you will need to create a copy of the base header.html
+ * 	and change the logo image's sourcepath to include the correct image.
+ */
+
+/* body background */
+
+body {
+	background: url("../images/bg_lines.png") repeat scroll 0 0 #F7F7F7;
+}
+
+#header {
+	height: 115px;
+	background: url('../images/header-bg.jpg') no-repeat scroll;
+	background-position: center;
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+/* widget-header gradients */
+
+.ui-widget-header, #nav, #header .navlinks {
+	background: #000;
+	border-radius: 0px;
+}
+
+#nav {
+	padding-top: 0px;
+}
+
+#header .navlinks {
+	color: #00B5CB;
+}
+
+/* nav buttons */
+
+#nav li a{
+	background: #000;
+	border-color: #000;
+	font-family: "proxima-nova",sans-serif;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	/*border: 1px solid #00B5CB;*/
+	height: 120%;
+	font-size: 1.4em;
+	border-radius: 0px;
+	padding-bottom: 21px;
+    padding-top: 22px;
+    margin: 0px;
+}
+
+#nav li a #module-dropdown.flat-left {
+	border: 1px solid #00B5CB;
+}
+
+#nav li a:hover {
+	background: #2f2f2f;
+}
+#nav li.navselected a, #nav li a:active {
+
+}
+
+/* asset title bar*/
+.title-bar {
+	background: #E7241C;
+	border-color: #CD0C09;
+}
+
+/* asset tab selection*/
+#de-side-nav li.current a:hover, #de-side-nav li.current a {
+	background: #cd0c09; /* Old browsers */
+	background: -moz-linear-gradient(left,  #cd0c09 0%, #fc4237 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#cd0c09), color-stop(100%,#fc4237)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #cd0c09 0%,#fc4237 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #cd0c09 0%,#fc4237 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #cd0c09 0%,#fc4237 100%); /* IE10+ */
+	background: linear-gradient(to right,  #cd0c09 0%,#fc4237 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cd0c09', endColorstr='#fc4237',GradientType=1 ); /* IE6-9 */
+	border-color: #CD0C09;
+
+}
+
+#de-side-nav ul li.current:after {
+	border-left: 8px solid #FC4237;
+}
+
+/* left column background color */
+
+#left-col {
+	
+}
+
+/* left column widget border colors */
+
+#left-col .ui-widget-content {
+
+}
+
+/* right column border color */
+
+#right-col {
+	
+}
+
+/* main widget backgrond color */
+
+#emcontent {
+	
+}
+
+/* table header background color and font color */
+
+#emcontainer #emselectable #tableheader th, table tr.tableheader th {
+
+}
+
+/* table rows colors */
+
+#emcontainer #emselectable table tr {
+	
+}
+#emcontainer #emselectable table tr.odd, table tr.odd {
+	background: #f2f2f2;
+}
+/* table header */
+#emcontainer #emselectable #main-results-table #tableheader th {
+	background: #e7241c; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e7241c 0%, #cd0c09 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e7241c), color-stop(100%,#cd0c09)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e7241c 0%,#cd0c09 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e7241c 0%,#cd0c09 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e7241c 0%,#cd0c09 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e7241c 0%,#cd0c09 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7241c', endColorstr='#cd0c09',GradientType=0 ); /* IE6-9 */
+}
+
+ul.emheaderbuttons {
+	margin: 0px;
+}
+
+/* table rows hover background color */
+#emcontainer #emselectable table tr.emborderhover, table tr.emborderhover {
+	background: #C9E8F2;
+}
+
+/* media player background */
+
+#media-player {
+	
+}
+
+/* sidebar hover background color */
+
+.sidebar-caption span {
+
+}
+
+/* categories and tags background color */
+
+.asset-details-more a {
+
+}
+
+.asset-details-more a:hover {
+
+}
+
+/* category tree selected row background color */
+
+#emcategoryinline .dTreeNodeSel {
+
+}
+
+/* asset metadata editor frame background color and side tab background color */
+
+body #emcontainer .emasseteditorareawrapper, #assetmenu .catalogs_menu_item.current {
+
+}
+
+/* settings area sub navigation background color and border color */
+
+#eml-tab-subnav ul, #eml-tabs ul li.current a {
+
+}
+#eml-tabs ul li.current a {
+
+}
+
+/* hints color and hover colors */
+
+.hints h3, .hints a:hover {
+
+}
+
+/* standard font colors */
+
+h1, h2 {
+
+}
+
+/* form focus border color */
+
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus {
+	
+}
