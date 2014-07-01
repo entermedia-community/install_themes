@@ -1,0 +1,189 @@
+
+/*
+ * 	In order to change the logo of your site you will need to create a copy of the base header.html
+ * 	and change the logo image's sourcepath to include the correct image.
+ */
+
+/* body background */
+
+body {
+	background: #fff url(../images/header-bg.png) repeat-x;
+}
+
+#main {
+	box-shadow: none;
+}
+#header {
+	padding-bottom: 23px;
+}
+
+/* widget-header gradients */
+
+#emcontent {
+	border: none;
+}
+
+#nav {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 12px;
+	background: #00AEEF;
+	box-shadow: 0px 2px 0px 0px;
+}
+#btnpanel {
+	background: #fff;
+	border-radius: 3px;
+	height: 50px;
+	box-shadow: -1px 1px 2px 0px #067DAB;
+	
+}
+.ui-widget-header.sidetoggle, .ui-widget-header.sidetoggle.expanded {
+	border-radius: 0px;
+}
+
+.ui-widget-header, #header .navlinks {
+	background: #00AEEF;
+	border-radius: 0px;
+}
+
+/* nav buttons */
+
+#nav li a , #nav .flat-right, #nav .flat-left{
+	transition: all 0.2s ease-in-out;
+	background: #fff;
+	color: #6C6C6C;
+	font-family: "Lexia W01 Regular";
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 22px;
+	border: none;
+	box-shadow: none;
+}
+#nav li a:hover {
+	background: #F8F8F8;
+}
+#nav li.navselected a, #nav li a:active {
+	background: #F8F8F8;
+}
+
+
+/* left column background color */
+
+#left-col {
+	background: #fff;
+}
+
+/* left column widget border colors */
+
+#left-col .ui-widget-content {
+	box-shadow: 0px;
+}
+
+.sidebar-list li.current a {
+	color: #00AEEF;
+	background: #EFEFEF;
+}
+
+/* right column border color */
+
+#right-col {
+	background: none;
+	border-left: none;
+}
+
+/* main widget backgrond color */
+
+#emcontent {
+	
+}
+
+/* table header background color and font color */
+
+#emcontainer #emselectable #tableheader th, table tr.tableheader th {
+	background: #00AEEF;
+}
+#emcontainer #emselectable #main-results-table #tableheader th, .settings-table #tableheader th, #emcontainer #emselectable #main-results-table #tableheader th.sortable.currentsort {
+	background: #00AEEF;
+}
+#emcontainer #emselectable #main-results-table #tableheader th.sortable.currentsort.down, #emcontainer #emselectable #main-results-table #tableheader th.sortable.currentsort.up, .commentbox .ui-widget-header {
+	background-color: #00AEEF;
+}
+
+/* table rows colors */
+
+#emcontainer #emselectable table tr {
+	
+}
+#emcontainer #emselectable table tr.odd, table tr.odd {
+	
+}
+
+/* table rows hover background color */
+
+#emcontainer #emselectable table tr.emborderhover, table tr.emborderhover {
+	
+}
+
+/* media player background */
+
+#media-player {
+	
+}
+
+/* sidebar hover background color */
+
+.sidebar-caption span {
+
+}
+
+/* categories and tags background color */
+
+.asset-details-more a {
+
+}
+
+.asset-details-more a:hover {
+
+}
+
+/* category tree selected row background color */
+
+#emcategoryinline .dTreeNodeSel {
+
+}
+
+/* asset metadata editor frame background color and side tab background color */
+
+body #emcontainer .emasseteditorareawrapper, #assetmenu .catalogs_menu_item.current {
+
+}
+
+/* settings area sub navigation background color and border color */
+
+#sub-nav, #eml-tab-subnav ul, #eml-tabs ul li.current a {
+	background: #F8F8F8;
+	border-bottom: none;
+	
+}
+#eml-tabs ul li a, #sub-nav li a {
+	color: #6C6C6C;
+}
+
+/* hints color and hover colors */
+
+.hints h3, .hints a:hover {
+
+}
+
+/* standard font colors */
+
+h1, h2 {
+
+}
+
+/* form focus border color */
+
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus {
+	
+}
