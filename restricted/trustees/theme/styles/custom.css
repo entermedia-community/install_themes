@@ -39,6 +39,7 @@ ul.emheaderbuttons {
 #nav li a {
 	background: #E1D589;
 	color: #7B6F17;
+	border-color: #7B6F17;
 }
 #nav li a:hover {
 	background: #D2C64E;
@@ -65,13 +66,13 @@ ul.emheaderbuttons {
 /* left column widget border colors */
 
 #left-col .ui-widget-content {
-
+	border-color: #7B6F17;
 }
 
 /* right column border color */
 
 #right-col {
-	
+	border-color: #7B6F17;
 }
 
 /* main widget backgrond color */
