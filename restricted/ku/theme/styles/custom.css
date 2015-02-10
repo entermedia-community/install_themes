@@ -1,0 +1,199 @@
+
+/*
+ * 	In order to change the logo of your site you will need to create a copy of the base header.html
+ * 	and change the logo image's sourcepath to include the correct image.
+ */
+
+/*
+	COLORS
+
+	(0,34,178); #0022B2 - blue grad light
+	(0,29,155); #001D9B - blue grad dark
+
+	(228,0,13); #E4000D - red grad light
+	(200,0,10); #C8000A - red grad dark
+
+	(135,173,252); #87ADFC - light blue text
+	(255,0,0); #FF0000 - red
+
+	(239,239,239); #EFEFEF - grey bkgd
+*/
+
+#logo_region {
+	height: 150px;
+}
+
+.logo_title {
+	background: transparent url("../images/university-of-kansas-title.png") no-repeat 180px 50px;
+	height: 100%;
+}
+
+.logo {
+	position: absolute;
+}
+
+/* body background */
+
+body {
+	background: #cccccc; /* Old browsers */
+	background: -moz-linear-gradient(top,  #cccccc 0%, #7c7c7c 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cccccc), color-stop(100%,#7c7c7c)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #cccccc 0%,#7c7c7c 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #cccccc 0%,#7c7c7c 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #cccccc 0%,#7c7c7c 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #cccccc 0%,#7c7c7c 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#7c7c7c',GradientType=0 ); /* IE6-9 */
+}
+
+/* widget-header gradients */
+
+.ui-widget-header, #nav, #header .navlinks {
+	background: #0022b2; /* Old browsers */
+	background: -moz-linear-gradient(top,  #0022b2 1%, #001d9b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#0022b2), color-stop(100%,#001d9b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #0022b2 1%,#001d9b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #0022b2 1%,#001d9b 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #0022b2 1%,#001d9b 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #0022b2 1%,#001d9b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0022b2', endColorstr='#001d9b',GradientType=0 ); /* IE6-9 */
+}
+
+/* nav buttons */
+
+#nav li a {
+	background: #0022b2; /* Old browsers */
+	background: -moz-linear-gradient(top,  #0022b2 1%, #001d9b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#0022b2), color-stop(100%,#001d9b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #0022b2 1%,#001d9b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #0022b2 1%,#001d9b 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #0022b2 1%,#001d9b 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #0022b2 1%,#001d9b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0022b2', endColorstr='#001d9b',GradientType=0 ); /* IE6-9 */
+	color: #87ADFC;
+	border-radius: 0px;
+}
+#nav li a:hover {
+	background: #e4000d; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e4000d 0%, #c8000a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4000d), color-stop(100%,#c8000a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e4000d 0%,#c8000a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e4000d 0%,#c8000a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e4000d 0%,#c8000a 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e4000d 0%,#c8000a 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4000d', endColorstr='#c8000a',GradientType=0 ); /* IE6-9 */
+	color: #fff;
+}
+#nav li.navselected a, #nav li a:active {
+	border-color: #237b97;
+}
+
+/* left column background color */
+
+#left-col {
+	background: #EFEFEF;
+}
+
+/* left column widget border colors */
+
+#left-col .ui-widget-content {
+
+}
+
+/* right column border color */
+
+#right-col {
+	
+}
+
+/* main widget backgrond color */
+
+#emcontent {
+	
+}
+
+/* table header background color and font color */
+
+#emcontainer #emselectable #tableheader th, table tr.tableheader th {
+	
+}
+
+/* table rows colors */
+
+#emcontainer #emselectable table tr {
+	
+}
+#emcontainer #emselectable table tr.odd, table tr.odd {
+	
+}
+
+/* table rows hover background color */
+
+#emcontainer #emselectable table tr.emborderhover, table tr.emborderhover {
+	
+}
+
+/* media player background */
+
+#media-player {
+	
+}
+
+/* sidebar hover background color */
+
+.sidebar-caption span {
+
+}
+
+/* categories and tags background color */
+
+.asset-details-more a {
+
+}
+
+.asset-details-more a:hover {
+
+}
+
+/* category tree selected row background color */
+
+#emcategoryinline .dTreeNodeSel {
+
+}
+
+/* asset metadata editor frame background color and side tab background color */
+
+body #emcontainer .emasseteditorareawrapper, #assetmenu .catalogs_menu_item.current {
+
+}
+
+/* settings area sub navigation background color and border color */
+
+#eml-tab-subnav ul, #eml-tabs ul li.current a {
+
+}
+#eml-tabs ul li.current a {
+
+}
+
+li.current a.search-href, .sidebar-list li.current a
+{
+	background: #ff0000;
+}
+
+/* hints color and hover colors */
+
+.hints h3, .hints a:hover {
+
+}
+
+/* standard font colors */
+
+h1, h2 {
+
+}
+
+/* form focus border color */
+
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus {
+	
+}
